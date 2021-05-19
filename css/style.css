@@ -1,0 +1,162 @@
+#chaseprofile {
+  width: 500px;
+}
+
+.footer {
+  height: 100px;
+  background: #262626;
+  width: 1920px;
+  z-index: 12;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #262626;
+  width: 1920px;
+  z-index: 12;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: 5px;
+}
+
+#topnav {
+  line-height: 100px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  margin: 0 10px;
+}
+
+#topnav a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 40;
+  top: 100px;
+}
+
+.center {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+#headerimage {
+  margin: 20%;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  background-color: #057e9c;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: rgb(119, 116, 116);
+}
+
+.navbottom {
+  position: absolute;
+  left: 36%;
+  line-height: 100px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  margin: 0 10px;
+}
+.navbottom a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.myskills {
+  position: relative;
+  left: 200px;
+}
+.myskills h1 {
+  position: relative;
+  bottom: 20px;
+  left: 200px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+}
+
+.mywork {
+  position: relative;
+  left: 1000px;
+  bottom: 455px;
+}
+
+.mywork h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  position: relative;
+  bottom: 20px;
+  left: 180px;
+}
+
+.flexcontainer {
+  display: flex;
+  width: 45%;
+}
+
+.flexcontainer2 {
+  display: flex;
+  width: 45%;
+}
+
+.center {
+  display: flex;
+  width: 30%;
+  margin: 30px;
+}
+
+.pskills {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+}
+.pmywork {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+}
+
+.skillsbutton {
+  left: 32%;
+}
+
+.workbutton {
+  left: 32%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+  }
+}
